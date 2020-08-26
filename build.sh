@@ -1,4 +1,4 @@
-BASE_URL="https://angry-benz-029552.netlify.app"
+BASE_URL="https://sucs.club"
 
 git submodule update --init --recursive
 
