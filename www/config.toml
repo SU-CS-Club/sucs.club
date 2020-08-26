@@ -1,0 +1,11 @@
+baseURL = "https://sucs.club"
+languageCode = "en-us"
+title = "My New Hugo Site"
+publishDir = "../public"
+disableKinds = ["taxonomy","taxonomyTerm","sitemap"] 
+
+[menu]
+  [[menu.header]]
+    name = "Meeting Notes"
+    weight = 1
+    url = "/notes"

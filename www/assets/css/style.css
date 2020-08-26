@@ -1,0 +1,233 @@
+/*---------------------------------------------*/
+/* Basic set up */
+/*---------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #cf0826;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+section {
+  width: 80%;
+  margin-left: 10%;
+}
+
+a{
+  color: #38c7ff;
+}
+
+/*---------------------------------------------*/
+/* Header */
+/*---------------------------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/header_2.jpg);
+  color: aliceblue;
+  height: 50vh;
+  min-height: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+  background-attachment: scroll;
+}
+
+header img {
+  float: left;
+  position: relative;
+  top: 2vh;
+  left: 2vw;
+  height: 100px;
+  width: 100px;
+}
+
+.main-nav {
+  list-style-type: none;
+  position: relative;
+  width: 100%;
+  top: 10px;
+  right: 0;
+}
+
+header ul li {
+  display: inline;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 100%;
+  top: 12vh;
+}
+.hero-text-box span h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.hero-text-box h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 180%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.links{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  min-height: 360px;
+  max-width: 960px;
+}
+.introduction h2 {
+  text-align: center;
+}
+/*---------------------------------------------*/
+/* Members*/
+/*---------------------------------------------*/
+.members-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/header_img.jpg);
+  color: aliceblue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+.members h2 {
+  margin-top: 20px;
+}
+
+.members h3 {
+  font-weight: 300;
+}
+
+.members-list {
+  padding-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+  columns: aliceblue;
+}
+
+.members-list a {
+  color: aliceblue;
+  text-decoration-color: #51826d;
+  margin-left: 10px;
+}
+
+.members-list a:hover {
+  cursor: pointer;
+}
+
+.members .col {
+  padding-top: 30px;
+}
+/*---------------------------------------------*/
+/* what we do*/
+/*---------------------------------------------*/
+
+.events ul li {
+  text-align: left;
+  margin-left: 80px;
+}
+.events h3 {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.events ul {
+  padding-top: 10px;
+  list-style-type: disc;
+}
+
+.events .row {
+  padding-top: 20px;
+}
+
+/*---------------------------------------------*/
+/* connect with us*/
+/*---------------------------------------------*/
+
+.socials-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/IMG_3901.JPG);
+  color: aliceblue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+
+.socials-list {
+  width: 100%;
+  margin-left: -10%;
+  margin-right: -10%;
+  color: aliceblue;
+  display: inline-flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+.socials-list li {
+  display: inline-block;
+  color: aliceblue;
+  margin-top: 35px;
+  width: 15%;
+  max-width: 100px;
+}
+
+
+/*---------------------------------------------*/
+/* latest instagram*/
+/*---------------------------------------------*/
+
+.instagram-widget iframe{
+  margin-top: 35px; 
+}
