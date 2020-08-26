@@ -31,7 +31,7 @@
     {{ $style := resources.Get "css/style.css" }}
 
     {{ $final := slice $grid $style | resources.Concat "bundle.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $final.Permalink }}" integrity="{{ $final.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $final.Permalink | relURL }}" integrity="{{ $final.Data.Integrity }}">
     
     <link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
     <link
