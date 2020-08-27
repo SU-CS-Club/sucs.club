@@ -1,12 +1,12 @@
 backend:
   name: github
   repo: SU-CS-Club/notes
-media_folder: static/images
-public_folder: /images
+media_folder: notes/static/images
+public_folder: notes/images
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'content/posts'
+    folder: 'notes/content/posts'
     create: true
     slug: '{{slug}}'
     editor:
