@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: SU-CS-Club/notes
+  repo: SU-CS-Club/sucs.club
 media_folder: notes/static/images
 public_folder: notes/images
 collections:
