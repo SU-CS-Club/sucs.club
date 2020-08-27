@@ -1,0 +1,10 @@
+.header .avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+}
+
+.post-header .meta .date .day{
+  font-family: "Inter", sans-serif;
+  font-size: 2.5em;
+}
